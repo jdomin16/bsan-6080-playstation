@@ -48,7 +48,7 @@ We will be gathering data for this project by using APIs, web scraping and findi
 
 A quick rundown of each phase of the project plan is given below:
 
-· DATA UNDERSTANDING
+1. DATA UNDERSTANDING
 
 o Tools Used: Web browser to scan for useful data, discussions to set performance metrics and KPIs
 
@@ -62,7 +62,7 @@ o Dependencies: Time availability, ability to find the appropriate datasets, dat
 
 o Duration: 2-3 days
 
-· DATA PREPARATION
+2. DATA PREPARATION
 
 o Tools Used: Postman for APIs, Python for Web Scraping, SQL and Python for Data Cleaning (ETL)
 
@@ -76,7 +76,7 @@ o Dependencies: Ability to completely clean datasets, combine them and utilize a
 
 o Duration: 5-7 days
 
-· MODELING
+3. MODELING
 
 o Tools Used: Python to create models, Tableau to visualize models better
 
@@ -90,7 +90,7 @@ o Dependencies: Domain knowledge of models to run
 
 o Duration: 4-6 days
 
-· EVALUATION
+4. EVALUATION
 
 o Tools Used: Python to perform evaluation using performance metrics
 
@@ -104,7 +104,7 @@ o Dependencies: Evaluation criteria, ceilings
 
 o Duration: 3-7 days
 
-· DEPLOYMENT
+5. DEPLOYMENT
 
 o Tools Used: Slides, Docs to create a presentable version and a detailed version of the results
 
