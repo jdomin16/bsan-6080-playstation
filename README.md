@@ -50,70 +50,70 @@ A quick rundown of each phase of the project plan is given below:
 
 1. DATA UNDERSTANDING
 
-o Tools Used: Web browser to scan for useful data, discussions to set performance metrics and KPIs
+* Tools Used: Web browser to scan for useful data, discussions to set performance metrics and KPIs
 
-o Resources: Domain Knowledge, Project Understanding
+* Resources: Domain Knowledge, Project Understanding
 
-o Inputs: Collective knowledge
+* Inputs: Collective knowledge
 
-o Outputs: A clear understanding of the data to be used and how to use it
+* Outputs: A clear understanding of the data to be used and how to use it
 
-o Dependencies: Time availability, ability to find the appropriate datasets, data access
+* Dependencies: Time availability, ability to find the appropriate datasets, data access
 
-o Duration: 2-3 days
+* Duration: 2-3 days
 
 2. DATA PREPARATION
 
-o Tools Used: Postman for APIs, Python for Web Scraping, SQL and Python for Data Cleaning (ETL)
+* Tools Used: Postman for APIs, Python for Web Scraping, SQL and Python for Data Cleaning (ETL)
 
-o Resources: Access to Software, datasets,
+* Resources: Access to Software, datasets,
 
-o Inputs: Datasets from the sources
+* Inputs: Datasets from the sources
 
-o Outputs: Clean dataset for modeling
+* Outputs: Clean dataset for modeling
 
-o Dependencies: Ability to completely clean datasets, combine them and utilize all the features, quality of data
+* Dependencies: Ability to completely clean datasets, combine them and utilize all the features, quality of data
 
-o Duration: 5-7 days
+* Duration: 5-7 days
 
 3. MODELING
 
-o Tools Used: Python to create models, Tableau to visualize models better
+* Tools Used: Python to create models, Tableau to visualize models better
 
-o Resources: Access to clean datasets
+* Resources: Access to clean datasets
 
-o Inputs: Cleaned datasets
+* Inputs: Cleaned datasets
 
-o Outputs: predictive models to determine potential growth
+* Outputs: predictive models to determine potential growth
 
-o Dependencies: Domain knowledge of models to run
+* Dependencies: Domain knowledge of models to run
 
-o Duration: 4-6 days
+* Duration: 4-6 days
 
 4. EVALUATION
 
-o Tools Used: Python to perform evaluation using performance metrics
+* Tools Used: Python to perform evaluation using performance metrics
 
-o Resources: Access to software, Domain Knowledge
+* Resources: Access to software, Domain Knowledge
 
-o Inputs: Models created to understand customer data
+* Inputs: Models created to understand customer data
 
-o Outputs: Understanding of models and finding the right model and strategy
+* Outputs: Understanding of models and finding the right model and strategy
 
-o Dependencies: Evaluation criteria, ceilings
+* Dependencies: Evaluation criteria, ceilings
 
-o Duration: 3-7 days
+* Duration: 3-7 days
 
 5. DEPLOYMENT
 
-o Tools Used: Slides, Docs to create a presentable version and a detailed version of the results
+* Tools Used: Slides, Docs to create a presentable version and a detailed version of the results
 
-o Resources: Team discussions
+* Resources: Team discussions
 
-o Inputs: Post evaluation insights, analysis
+* Inputs: Post evaluation insights, analysis
 
-o Outputs: Project presentation, report, and deployment
+* Outputs: Project presentation, report, and deployment
 
-o Dependencies: Time availability, Project success criteria met
+* Dependencies: Time availability, Project success criteria met
 
-o Duration: 2-5 days
+* Duration: 2-5 days
