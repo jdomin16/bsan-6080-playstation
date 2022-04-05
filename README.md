@@ -1,5 +1,5 @@
 # Playstation Audience Analytics Team Project
-![alt text] (playstation-logo.png) 
+![alt text] (https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/playstation-logo.png) 
 # Business Objectives:
 Playstation is looking for a an analyst as a part of their Audience team. This position is pivotal as this will entail a vital role in shaping 
 communication with consumers. Playstation wants to initiate a global marketing strategy to reach all of its customers. The objectives 
