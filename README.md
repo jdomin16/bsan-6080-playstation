@@ -1,8 +1,8 @@
 # Business Objectives:
-# Playstation is looking for a an analyst as a part of their Audience team. This position is pivotal as this will entail a vital role in shaping 
-# communication with consumers. Playstation wants to initiate a global marketing strategy to reach all of its customers. The objectives 
-# include figuring out how best to reach customers, how to drive up engagement, promote subscription growth of its popular Playstation Plus online service.
-# Success will be measured through how well we meaure up when compared to our key performance indicators and how well we can implement and deploy our project plan. 
+### Playstation is looking for a an analyst as a part of their Audience team. This position is pivotal as this will entail a vital role in shaping 
+### communication with consumers. Playstation wants to initiate a global marketing strategy to reach all of its customers. The objectives 
+### include figuring out how best to reach customers, how to drive up engagement, promote subscription growth of its popular Playstation Plus online service.
+### Success will be measured through how well we meaure up when compared to our key performance indicators and how well we can implement and deploy our project plan. 
 
 Assess Situation
 Understand the current main revenue sources and main products of playstation. Including video game consoles, media center's usage and user reviews. 
