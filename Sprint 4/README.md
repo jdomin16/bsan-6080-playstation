@@ -1,6 +1,7 @@
 # Deployment Phase
 
 ## A/B Test:
+![alt text](https://png.pngitem.com/pimgs/s/509-5095558_subscribe-button-png-blue-transparent-png-blue-subscribe.png)
 ### We want to see if we include a button on the PlayStation website called “subscriptions” would that make it easier for people to click on it and sign up for PlayStation subscription services. We test this by having a control group that is the normal website and we see the traffic and check what pages people are going to and then we compare it to the challenger group the different version of the website that has the subscription button and we compare the website traffic and see if the subscription numbers increased at all. We want keep the test period to be 1 month so we will have enough sample size for testing. We want the confidence level to be at least 95%. Once we got result from the A/B test, we can add the “subscription” button to the website if we find the challenger group have increased the subscription number.  
 
 ## Strategic Dashboard
