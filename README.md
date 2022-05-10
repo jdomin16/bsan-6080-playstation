@@ -1,18 +1,21 @@
+
 # Playstation Audience Analytics Team Project
 ![alt text](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/playstation-logo.png) 
-# Business Objectives:
+#sprint1 : 
+# Business Understanding Phase
+## 1.1 Business Objectives:
 Playstation is looking for a an analyst as a part of their Audience team. This position is pivotal as this will entail a vital role in shaping 
 communication with consumers. Playstation wants to initiate a global marketing strategy to reach all of its customers. The objectives 
 include figuring out how best to reach customers, how to drive up engagement, promote subscription growth of its popular Playstation Plus online service.
 Success will be measured through how well we meaure up when compared to our key performance indicators and how well we can implement and deploy our project plan. 
 
-# Assess Situation
+## 1.2 Assess Situation
 Understand the current main revenue sources and main products of playstation. Including video game consoles, media center's usage and user reviews. 
 What efforts and improvements have PlayStation made to maintain and develop these products. Learn the company's development strategy and marketing strategy. 
 For example, using different subscription models to attract customers to comsume. The last is  research the risks the company faces. 
 These risks come from both internal and external sources. Employees are not satisfied with the company's treatment. And there are strong competitors outside.
 
-# Terminology
+### Terminology
 
 Text mining: is the process of transforming unstructured text into a structured format to identify meaningful patterns and new insights.
 
@@ -39,13 +42,13 @@ their customers more efficiently. Lastly and most importantly, sales and revenue
 being able to reach their correct audience effectively and improving their services.
 
 
-# Determine Data Mining Goals
+## 1.3 Determine Data Mining Goals
 We are going to use web scraping and calling an API that we learned in the class to find the information we need for the text mining goals part. 
 From the information we get, we will figure out at least two data mining goals for the PlayStation and find out which are the prioritize goals 
 and reasons behind it. At last, we will determine what are the Success Criteria of the data mining for PlayStation from the information found online 
 and understand why.
 
-# Produce Project Plan
+## 1.4 Produce Project Plan
 We will be gathering data for this project by using APIs, web scraping and finding prepared datasets on the internet.
 
 A quick rundown of each phase of the project plan is given below:
