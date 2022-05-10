@@ -15,7 +15,11 @@
 	* [3.1 Select Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#31-select-data)
 	* [3.2 Clean Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#32-clean-data)
 	* [3.3 Construct Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#33-feature-selection)
-
+* [4. Deployment Phase](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#deployment-phase)
+	* [6.1 AB Test](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#41-ab-test)
+	* [6.2 Strategic-Dashboard](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#42-strategic-dashboard)
+	* [6.3 Analytical-Dashboard](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#43-analytical-dashboard)
+	* [6.4 Experience-Documentation](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#44-experience-documentation)
 # Sprint 1: 
 # Business Understanding Phase
 ## 1.1 Business Objectives:
