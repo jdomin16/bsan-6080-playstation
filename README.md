@@ -123,3 +123,5 @@ A quick rundown of each phase of the project plan is given below:
 * Dependencies: Time availability, Project success criteria met
 
 * Duration: 2-5 days
+
+# Sprint 2: 
