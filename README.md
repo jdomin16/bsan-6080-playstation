@@ -2,7 +2,7 @@
 # Playstation Audience Analytics Team Project
 ![alt text](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/playstation-logo.png) 
 
-#sprint1 : 
+# Sprint 1: 
 # Business Understanding Phase
 ## 1.1 Business Objectives:
 Playstation is looking for a an analyst as a part of their Audience team. This position is pivotal as this will entail a vital role in shaping 
