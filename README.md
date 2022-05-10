@@ -15,7 +15,7 @@
 	* [3.1 Select Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#31-select-data)
 	* [3.2 Clean Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#32-clean-data)
 	* [3.3 Feature Selection](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#33-feature-selection)
-	* [3.4 Sentiment Analysis](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#33-feature-selection)
+	* [3.4 Sentiment Analysis](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#34-sentiment-analysis)
 * [4. Deployment Phase](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#deployment-phase)
 	* [4.1 AB Test](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#41-ab-test)
 	* [4.2 Strategic-Dashboard](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#42-strategic-dashboard)
