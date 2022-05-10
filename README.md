@@ -12,7 +12,7 @@
 * [Sprint 2: ](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#sprint-2)
 * [Sprint 3: ](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#sprint-3)
 * [3. Data Preparation Phase](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#data-preparation-phase)
-	* [3.1 Select Data & Clean Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#31-select-data & Clean Data)
+	* [3.1 Select Data & Clean Data](https://github.com/jdomin16/bsan-6080-playstation/blob/patch-2/README.md#31-select-data--clean-data)
 	* [3.2 Construct Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#33-feature-selection)
 * [4. Deployment Phase](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#deployment-phase)
 	* [4.1 AB Test](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#41-ab-test)
@@ -164,6 +164,7 @@ For the feature selection we didn't have enough information to go with, so we ha
 # Deployment Phase
 ## 4.1 A/B Test:
 ![alt text](https://png.pngitem.com/pimgs/s/509-5095558_subscribe-button-png-blue-transparent-png-blue-subscribe.png)
+
 We want to see if we can include a button on the PlayStation website called “subscriptions” would that make it easier for people to click on it and sign up for PlayStation subscription services. We test this by having a control group that is the normal website and we see the traffic and check what pages people are going to and then we compare it to the challenger group the different version of the website that has the subscription button and we compare the website traffic and see if the subscription numbers increased at all. We want keep the test period to be 1 month so we will have enough sample size for testing. We want the confidence level to be at least 95%. Once we got result from the A/B test, we can add the “subscription” button to the website if we find the challenger group have increased the subscription number.  
 
 ## 4.2 Strategic Dashboard
