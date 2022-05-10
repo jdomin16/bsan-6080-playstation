@@ -3,6 +3,12 @@
 ![alt text](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/playstation-logo.png) 
 
 # Table of Contents
+* [Sprint 1: ](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#sprint-1)
+* [1. Business Understanding Phase]
+          * [1.1 Determine Business Objective](
+
+
+
 
 # Sprint 1: 
 # Business Understanding Phase
