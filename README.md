@@ -130,3 +130,8 @@ A quick rundown of each phase of the project plan is given below:
 # Data Preparation Phase
 ## 3.1 Select Data
 
+## 3.2 Clean Data
+
+## 3.3 Feature Selection
+
+
