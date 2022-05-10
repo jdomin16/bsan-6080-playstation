@@ -10,7 +10,11 @@
 	* [1.3 Determine Data Mining Goals](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#13-determine-data-mining-goals)
 	* [1.4 Produce Project Plan](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#14-produce-project-plan)
 * [Sprint 2: ](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#sprint-2)
-
+* [Sprint 3: ](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#sprint-3)
+* [3. Data Preparation Phase](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#data-preparation-phase)
+	* [3.1 Select Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#31-select-data)
+	* [3.2 Clean Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#32-clean-data)
+	* [3.3 Construct Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#33-feature-selection)
 
 # Sprint 1: 
 # Business Understanding Phase
