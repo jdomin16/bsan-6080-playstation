@@ -1,6 +1,7 @@
 
 # Playstation Audience Analytics Team Project
 ![alt text](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/playstation-logo.png) 
+
 #sprint1 : 
 # Business Understanding Phase
 ## 1.1 Business Objectives:
