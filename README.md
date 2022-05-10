@@ -153,6 +153,8 @@ A quick rundown of each phase of the project plan is given below:
 
 ## 3.3 Feature Selection
 
+## 3.4 Sentiment Analysis
+
 # Deployment Phase
 ## 4.1 A/B Test:
 ![alt text](https://png.pngitem.com/pimgs/s/509-5095558_subscribe-button-png-blue-transparent-png-blue-subscribe.png)
