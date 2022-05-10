@@ -155,6 +155,7 @@ Then, we used pd.read_csv() function to read csv file ’Sony_Playstation_tweets
 *	Size: find dataframe size
 *	Shape: find dataframe shape
 *	Ndim: find the number of dimensions
+
 So  we  observer  the  first  5  rows  of  dataframe.  And  understand  some  statistical  data  and  data  type  for  each  column. Size  is  699048.  Shape  is (19418,  36).  Dimension  is  2. In  the  missing  value  check,  we  found  that  some  columns  have  a  large  number  of  missing  values.  For example, ‘place’ has 19417 missing value. We decide to dropthese  columns.To  delete  these  columns,  we  use  drop()  function. We  keep these columns:(id,  date,  username,  tweet,  language,  replies_count,  retweets_count,  likes_count,  hashtags). At  last,  we  use  isnull().sum()  to  check  the  data  after  cleaning.  We  can  found  there  is  no  missing  value  on  the  dataset. Data  preprocessing  is  complete,  we can  proceed  to  the  next  step.
 
 ## 3.2 Feature Selection
