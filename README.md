@@ -12,10 +12,8 @@
 * [Sprint 2: ](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#sprint-2)
 * [Sprint 3: ](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#sprint-3)
 * [3. Data Preparation Phase](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#data-preparation-phase)
-	* [3.1 Select Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#31-select-data)
-	* [3.2 Clean Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#32-clean-data)
-	* [3.3 Feature Selection](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#33-feature-selection)
-	* [3.4 Sentiment Analysis](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#34-sentiment-analysis)
+	* [3.1 Select Data & Clean Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#31-select-data & Clean Data)
+	* [3.2 Construct Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#33-feature-selection)
 * [4. Deployment Phase](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#deployment-phase)
 	* [4.1 AB Test](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#41-ab-test)
 	* [4.2 Strategic-Dashboard](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#42-strategic-dashboard)
@@ -147,24 +145,32 @@ A quick rundown of each phase of the project plan is given below:
 
 # Sprint 3: 
 # Data Preparation Phase
-## 3.1 Select Data
+## 3.1 Select Data & Clean Data
+In data preparation, we need to import pandas firstly.
+Then, we used pd.read_csv() function to read csv file ’Sony_Playstation_tweets.csv’. After loading the data set, we need a descriptive analysis of data. We use * * followingfunction for analysis:
+* 	Head(): get the first 5 rows
+* 	Describe(): calculating some statistical data like percentile, mean and std of the numerical values of the Series or DataFrame
+* 	Info(): prints information about the DataFrame
+* 	Isnull().sum(): total number of null
+*	Size: find dataframe size
+*	Shape: find dataframe shape
+*	Ndim: find the number of dimensions
+So  we  observer  the  first  5  rows  of  dataframe.  And  understand  some  statistical  data  and  data  type  for  each  column. Size  is  699048.  Shape  is (19418,  36).  Dimension  is  2. In  the  missing  value  check,  we  found  that  some  columns  have  a  large  number  of  missing  values.  For example, ‘place’ has 19417 missing value. We decide to dropthese  columns.To  delete  these  columns,  we  use  drop()  function. We  keep these columns:(id,  date,  username,  tweet,  language,  replies_count,  retweets_count,  likes_count,  hashtags). At  last,  we  use  isnull().sum()  to  check  the  data  after  cleaning.  We  can  found  there  is  no  missing  value  on  the  dataset. Data  preprocessing  is  complete,  we can  proceed  to  the  next  step.
 
-## 3.2 Clean Data
+## 3.2 Feature Selection
+For the feature selection we didn't have enough information to go with, so we had to create another variable which was Region where we wanted tosee whether being in the US compared to the rest of the world, it had an impact on the subscription status. Along with Region, we used the Pay Cycle and System variables to figure out which of our subscribers we could predict to stay with us.
 
-## 3.3 Feature Selection
-
-## 3.4 Sentiment Analysis
-
+# Sprint 4: 
 # Deployment Phase
 ## 4.1 A/B Test:
 ![alt text](https://png.pngitem.com/pimgs/s/509-5095558_subscribe-button-png-blue-transparent-png-blue-subscribe.png)
-### We want to see if we can include a button on the PlayStation website called “subscriptions” would that make it easier for people to click on it and sign up for PlayStation subscription services. We test this by having a control group that is the normal website and we see the traffic and check what pages people are going to and then we compare it to the challenger group the different version of the website that has the subscription button and we compare the website traffic and see if the subscription numbers increased at all. We want keep the test period to be 1 month so we will have enough sample size for testing. We want the confidence level to be at least 95%. Once we got result from the A/B test, we can add the “subscription” button to the website if we find the challenger group have increased the subscription number.  
+We want to see if we can include a button on the PlayStation website called “subscriptions” would that make it easier for people to click on it and sign up for PlayStation subscription services. We test this by having a control group that is the normal website and we see the traffic and check what pages people are going to and then we compare it to the challenger group the different version of the website that has the subscription button and we compare the website traffic and see if the subscription numbers increased at all. We want keep the test period to be 1 month so we will have enough sample size for testing. We want the confidence level to be at least 95%. Once we got result from the A/B test, we can add the “subscription” button to the website if we find the challenger group have increased the subscription number.  
 
 ## 4.2 Strategic Dashboard
-### To keep up with our goals in the Total Revenue and Customer Acquisition KPI’s we focus our efforts in regions/countries where we have the most active subscribers. We have here the top 5 countries based on total revenue we get from PS+ and total revenue from PS now. We should prioritize this top regions for system sales. Focus on China as the primary region to invest in customer retention. 
+To keep up with our goals in the Total Revenue and Customer Acquisition KPI’s we focus our efforts in regions/countries where we have the most active subscribers. We have here the top 5 countries based on total revenue we get from PS+ and total revenue from PS now. We should prioritize this top regions for system sales. Focus on China as the primary region to invest in customer retention. 
 
 ## 4.3 Analytical Dashboard
-### The KPIs that we were looking at were based on increasing revenues and our marketing strategy. We started with number of subscribers for each country. We have here the top 5 countries based on subscribers. As you can see China has a large chunk of our subscribers. Next, we looked at the top countries by revenue and unsurprisingly, it has a direct relationship with number of subscribers. To delve deeper into our analysis we looked at revenue per customer to see where we’re maximizing our profits. As you can see there are 5 countries with close revenue per customer numbers. When we look at the data these are the countries with the lowest number of subscribers as well.On the bottom you can see the subscribed to lapsed ratio to see where we can target our marketing campaigns to. We also added a filter to analyze our information based on each country.
+The KPIs that we were looking at were based on increasing revenues and our marketing strategy. We started with number of subscribers for each country. We have here the top 5 countries based on subscribers. As you can see China has a large chunk of our subscribers. Next, we looked at the top countries by revenue and unsurprisingly, it has a direct relationship with number of subscribers. To delve deeper into our analysis we looked at revenue per customer to see where we’re maximizing our profits. As you can see there are 5 countries with close revenue per customer numbers. When we look at the data these are the countries with the lowest number of subscribers as well.On the bottom you can see the subscribed to lapsed ratio to see where we can target our marketing campaigns to. We also added a filter to analyze our information based on each country.
 
 ## 4.4 Experience Documentation
 * What should we start doing?
