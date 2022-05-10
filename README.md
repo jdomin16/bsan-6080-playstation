@@ -10,6 +10,7 @@
           * [1.3 Determine Data Mining Goals](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#13-determine-data-mining-goals)
           * [1.4 Produce Project Plan](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#14-produce-project-plan)
 * [Sprint 2: ](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#sprint-2)
+* [Sprint 3: ]
 
 
 # Sprint 1: 
